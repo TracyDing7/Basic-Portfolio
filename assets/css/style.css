@@ -4,8 +4,8 @@ body {
     padding: 0;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
-     /* background: url('../images/grey_background.jpg');  
-   */
+      background: url('../images/grey_background.jpg');  
+    
 }
 #name {
 
@@ -23,18 +23,20 @@ nav {
     float: right; 
     padding-top: 30px;
     padding-bottom: 20px;
-    
-
+    width:40%;
+ 
 }
 nav a {
 
-    padding-right: 20px;
-    padding-left: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 header {
-    width:900px;
+    width:960px;
     margin:0 auto;
     padding:0;
+    background: none;
+    background-color: white;
 }
 .wrapper {
 
@@ -45,6 +47,7 @@ header {
     text-align: center;
     font-family: 'Georgia', Times, 'Times New Roman',serif;
     height:100px;
+    background: none;
 }
 #profile {     
      float: left; 
@@ -71,23 +74,25 @@ header {
 #email {
 
     margin-top: 20px;
-    
+   
   }
   
 #message {
-
     margin-top: 20px;
     margin-bottom: 20px;
-    
-  }
-
+}
+.mytext {
+    background-color: white;
+}
+.mymsg {
+    background-color: white;
+}
 input {
    
     margin  : 0;
     width   : 895px;
-    height: 20px;
-  
-    background: none;
+    height: 20px;    
+    
   }
 
   textarea {
@@ -96,8 +101,7 @@ input {
      margin  : 0;
      width   : 880px;
      height: 300px;
-   
-     background: none;
+     background-color: white;
    }
 
    #portfolio {
@@ -118,7 +122,7 @@ input {
 }
 
    #content-portfolio {
-    overflow: auto;
+    overflow: auto; 
     clear: both;    
 }
    
