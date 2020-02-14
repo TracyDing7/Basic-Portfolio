@@ -10,12 +10,13 @@ body {
 #name {
 
     float: left;
-    padding: 20px;
+    padding: 35px;
     background-color: #4aaaa5;
     color: white;
     font-weight: bold;    
     font-size: 25px;
-
+    margin:auto;
+     
 }
 
 nav {
@@ -32,8 +33,8 @@ nav a {
     padding-left: 10px;
 }
 header {
-    width:960px;
-    margin:0 auto;
+    
+     
     padding:0;
     background: none;
     background-color: white;
@@ -42,11 +43,11 @@ header {
 
     overflow: auto;  
     clear: both;
-    width: 1024px;
-    margin: auto;
+    width: 960px;
+    margin: 0 auto;
     text-align: center;
     font-family: 'Georgia', Times, 'Times New Roman',serif;
-    height:100px;
+    height:108px;
     background: none;
 }
 #profile {     
@@ -70,6 +71,9 @@ header {
     margin-top: 30px;
     width: 900px;
     margin:0 auto;
+}
+#contact-header{
+     background-color: #4aaaa5;
 }
 #email {
 
@@ -100,8 +104,13 @@ input {
      padding : 0 10px;
      margin  : 0;
      width   : 880px;
-     height: 300px;
+     height: 200px;
      background-color: white;
+   }
+   button {
+       text-align:center;
+        
+       background-color: #4aaaa5;
    }
 
    #portfolio {
@@ -151,8 +160,9 @@ footer {
     /*border-top: 5px solid #63A8A4;*/
     padding: 20px;
     height: 20px;
-    margin-top: 350px; 
+   /* margin-top: 350px; */
     border-top: 8px solid #4aaaa5;
-    
-
-}
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+   }
